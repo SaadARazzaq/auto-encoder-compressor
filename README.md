@@ -4,7 +4,7 @@ A deep learning-based image compression system utilizing Stacked Denoising Convo
 
 The objective of this work is to reduce image storage footprint through a neural network-based compression pipeline. The core component is a Stacked Denoising Autoencoder (SDAE) enhanced with Parametric ReLU (PReLU) activation functions to improve gradient flow and a Sub-pixel layer for efficient, learnable up-sampling. Following training on the Flickr Image Dataset, the model's performance was quantified on the Kodak Image Dataset, yielding a 76% reconstruction accuracy, indicating potential for further optimization. For the compression stage, the encoder's latent representation is losslessly compressed using the Deflate algorithm. On 128x128 images, this pipeline achieves an average compression ratio of 89.92% relative to the original format, a 43.97% improvement over JPEG.
 
-<img alt="image" src="https://github.com/user-attachments/assets/32693103-5182-4b78-9157-3ef487b724d9" />
+<img width="403" height="421" alt="image" src="https://github.com/user-attachments/assets/af9cb01e-5b7f-49fb-a721-047f283e9a74" />
 
 ## 📊 Performance Summary
 
@@ -19,7 +19,7 @@ The objective of this work is to reduce image storage footprint through a neural
 
 ## System Block Diagram
 
-<img width="1000" height="300" alt="image" src="https://github.com/user-attachments/assets/61453902-1597-46ac-b5c9-447e8fcf0d4e" />
+<img width="959" height="221" alt="image" src="https://github.com/user-attachments/assets/3005405e-0f5c-4a3d-ab38-1d5af20d27f3" />
 
 ## 🔬 Experimental Results
 
